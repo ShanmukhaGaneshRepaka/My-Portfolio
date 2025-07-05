@@ -3,136 +3,149 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Professional Portfolio</title>
-  <link rel="stylesheet" href="styleee.css" />
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
-
-
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
- 
+ <!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Shanmukha Ganesh Repaka</span></h1>
+    <p>Aspiring Backend Developer | Java | Spring Boot | AWS Enthusiast</p>
+    <a href="#projects" class="hero-btn">View My Work</a>
+  </div>
+</section>
 
-<!-- 
-  <header class="header">
-    <div class="container">
-      <div class="name">Shanmukha Ganesh Repaka</div>
-      <div class="contact-info">
-        <a href="mailto:shanmukhaganeshrepaka@gmail.com@example.com">shanmukhaganeshrepaka@gmail.com</a>
-       
-        <a href="https://www.linkedin.com/in/shanmukha-ganesh-repaka-a56008317/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/ShanmukhaGaneshRepaka" target="_blank">GitHub</a>
-        <a href="#" target="_blank">LeetCode</a>
-      </div>
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="name">Shanmukha Ganesh Repaka</div>
+    <div class="contact-info">
+      <a href="mailto:shanmukhaganeshrepaka@gmail.com">shanmukhaganeshrepaka@gmail.com</a>
+      <a href="https://www.linkedin.com/in/shanmukha-ganesh-repaka-a56008317/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ShanmukhaGaneshRepaka" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/shanmukhaganeshrepaka/" target="_blank">LeetCode</a>
     </div>
-  </header> -->
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <div class="name">Shanmukha Ganesh Repaka</div>
-      <div class="contact-info">
-        <a href="mailto:shanmukhaganeshrepaka@gmail.com">shanmukhaganeshrepaka@gmail.com</a>
-        <a href="https://www.linkedin.com/in/shanmukha-ganesh-repaka-a56008317/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/ShanmukhaGaneshRepaka" target="_blank">GitHub</a>
-        <a href="https://leetcode.com/u/shanmukhaganeshrepaka/" target="_blank">LeetCode</a>
-      </div>
-    </div>
-  </header>
+  </div>
+</header>
 
-  <!-- Menu Bar -->
-  <nav class="menu-bar">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#certificates">certificates</a></li>
-      <li><a href="#skills">Skills</a></li>
-    </ul>
-  </nav>
-
-  <!-- About Section -->
-  <section class="about-section" id="about">
-
-    <div class="about-container">
-      <div class="about-text">
-        <h2>About Me</h2>
-        I have a passion for learning new things and I love solving hard problems.<br/><br/>
-
-        <b>Topics I love:</b> Data Structures and Algorithms, Distributed Systems, Operating Systems, Databases.<br/><br/>
-       <b> Languages:</b> C++, Python, Java, Go, Node.js, Typescript, Haskell, Terraform<br/><br/>
-        <b>Frameworks:</b> Spring, Spring boot, Dropwizard, Android, React, Django, Tensorflow, OCI, AWS<Br/><br/>
-      </div>
-
-<div class="profile-pic">
-  <img src="PortfolioImage.jpg" alt="My Profile Photo" />
+<!-- Mobile Menu Button -->
+<div class="mobile-menu-btn">
+  <i class="fas fa-bars"></i>
 </div>
-      
-    </div>
-  </section>
 
-  <!--Experience Section duplicate-->
- <section class="experience-section" id="experience">
-    <h2>Experience</h2>
-    <div class="experience-container">
+<!-- Menu Bar -->
+<nav class="menu-bar" id="menuBar">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
+</nav>
 
-      <div class="experience-card">
-        <h3>Java Developer Intern</h3>
-        <p class="company">HulkHire | Apr 2024 - May 2024</p>
-        <ul>
-          <li>Developed REST APIs using Spring Boot.</li>
-          <li>Implemented user authentication and CRUD features.</li>
-          <li>Worked with MySQL and integrated backend with frontend.</li>
-        </ul>
+<!-- About Section -->
+<section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p class="intro">
+        I'm a backend development enthusiast with a strong foundation in <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>MySQL</strong>. I enjoy building scalable systems and constantly work on sharpening my <strong>problem-solving skills</strong>.
+      </p>
+      <p>
+        I'm currently learning and exploring <strong>AWS Cloud</strong> technologies to build production-ready, cloud-native backend applications.
+      </p>
+
+      <div class="tech-lists">
+        <div class="tech-block">
+          <h4>🔍 Areas of Interest</h4>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>Distributed Systems</li>
+            <li>Operating Systems</li>
+            <li>Databases</li>
+          </ul>
+        </div>
+
+        <div class="tech-block">
+          <h4>🛠️ Languages</h4>
+          <p>C++, Python, Java, Go, Node.js, TypeScript, Haskell, Terraform</p>
+        </div>
+
+        <div class="tech-block">
+          <h4>⚙️ Frameworks & Tools</h4>
+          <p>Spring, Spring Boot, Dropwizard, React, Django, Android, TensorFlow, OCI, AWS</p>
+        </div>
       </div>
-
-      <div class="experience-card">
-        <h3>Java Developer Intern</h3>
-        <p class="company">Techplement | Jan 2023 - Jan 2023</p>
-        <ul>
-          <li>Built scalable backend modules in Java.</li>
-          <li>Gained hands-on experience in data structures and algorithms.</li>
-        </ul>
-
-        <a href="certificates/JavaDevTechplement.pdf" target="_blank">
-   Certificate
-</a>
-
-      </div>
-
     </div>
-  </section>
-  <!-- Projects -->
+
+    <div class="profile-pic">
+      <img src="MyImage.jpg" alt="My Profile Photo" />
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience-section" id="experience">
+  <h2>Experience</h2>
+  <div class="experience-container">
+    <div class="experience-card">
+      <h3>Java Developer Intern</h3>
+      <p class="company">HulkHire | Apr 2024 - May 2024</p>
+      <ul>
+        <li>Built core REST API integration with PayPal using Java SpringBoot in a microservices architecture hosted on AWS.</li>
+        <li>Developed paypal-provider-service integrating with PayPal REST APIs: Create Order, Capture Order, Show Order.</li>
+        <li>Secured API communication using OAuth 2.0 (Client Credentials grant).</li>
+        <li>Implemented microservices with circuit breaker for fault tolerance and integrated distributed logging using Micrometer.</li>
+      </ul>
+    </div>
+
+    <div class="experience-card">
+      <h3>Java Developer Intern</h3>
+      <p class="company">Techplement | Jan 2023 - Jan 2023</p>
+      <ul>
+        <li>Built a secure password vault using Java and Spring Boot to allow users to store, retrieve, and manage credentials efficiently.</li>
+        <li>Implemented password encryption using BCryptPasswordEncoder to ensure all stored data is hashed and protected against brute-force attacks.</li>
+        <li>Used MySQL as the relational database to persist user and password data with proper schema design and indexing for quick access.</li>
+        <li>Designed RESTful APIs for user registration, login, and password management, following best practices in backend development.</li>
+      </ul>
+      <a href="certificates/JavaDevTechplement.pdf" target="_blank">Certificate</a>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
 <section class="projects" id="projects">
   <h2>Projects</h2>
   <div class="project-container">
-
     <div class="project-card">
       <h3>Password Manager</h3>
-      <p>
-        <strong>Description:</strong> I was genuinely curious and super excited to work on this project from scratch!  
-        It was my first time building something so real and useful, and I got a chance to use Spring Boot and MySQL in a full-stack environment.  
-        As a student, I had no idea how microservices or backend flows worked—but this project changed everything.  
-        I developed a secure password vault that lets users store, retrieve, and manage passwords with encryption.  
-        I really enjoyed working on real-world problems and it made me more confident as a backend developer.
-      </p>
+      <ul>
+        <li>🔐 Secure Login System: Implemented user authentication using Spring Security and JWT tokens, allowing only verified users to access protected APIs.</li>
+        <li>🛡️ Role-Based Access Control (RBAC): Restricted endpoints based on user roles like ADMIN and USER using annotations like @PreAuthorize and custom configurations.</li>
+        <li>🗄️ Persistent User & Role Data: Stored user credentials and role mappings in MySQL using Spring Data JPA, with entity relationships like User ↔ Role.</li>
+        <li>⚙️ Password Encryption: Used BCryptPasswordEncoder to securely hash and store passwords in the database, protecting against brute-force and dictionary attacks.</li>
+      </ul>
     </div>
-    <div class="project-card">
-      <h3>Online Bookstore</h3>
-      <p>
-        <strong>Description:</strong> Developed a full-stack online bookstore application using React, Node.js, and MongoDB.  
-        It was an amazing experience to create a platform where users can browse, search, and purchase books online.  
-        I learned so much about integrating frontend and backend technologies, and it was really fulfilling to see the project come together.
-      </p>
-      </div>
-      </div></section>
 
-  <!-- Education -->
-<!-- Education -->
+    <div class="project-card">
+      <h3>YouTube Clone</h3>
+      <ul>
+        <li>🎨 Developed a responsive front-end YouTube clone using pure HTML5 and CSS3, replicating the core layout and UI of YouTube.</li>
+        <li>📺 Implemented video thumbnail grids, sidebar navigation, and header menus with SVG icons for an authentic user experience.</li>
+        <li>📱 Fully mobile-friendly layout with flexbox and media queries to ensure the design adapts smoothly across devices.</li>
+        <li>🧰 Organized project structure with reusable CSS classes and asset folders, showcasing clean code and UI building skills.</li>
+      </ul>
+      <a href="https://shanmukhaganeshrepaka.github.io/youtube-clone/" target="_blank" class="live-demo-button">🎬 Live Demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
 <section class="education-section" id="education">
   <h2>Education</h2>
   <div class="education-container">
@@ -145,39 +158,39 @@
     <div class="education-card">
       <h3>Bachelor of science</h3>
       <p class="institution">Aditya Degree College, Palakol | 2019-2022</p>
-            <p>CGPA : 8.6</p>
-
+      <p>CGPA : 8.6</p>
     </div>
 
-     <div class="education-card">
+    <div class="education-card">
       <h3>Intermediate</h3>
       <p class="institution">Narayana Junior College, Bhimavaram| 2017-2019</p>
-            <p>CGPA : 9.25</p>
-
+      <p>CGPA : 9.25</p>
     </div>
   </div>
 </section>
-<!-- Certifications -->
+
+<!-- Certificates Section -->
 <section class="certificates-section" id="certificates">
   <h2>Certificates</h2>
   <div class="certificates-container">
     <div class="certificates-card">
-      <h5>Java Developer Intern certificates</h5>
+      <h3>Java Developer Intern certificates</h3>
       <p class="institution">Techplement</p>
-
-
-
     </div>
   </div>
 </section>
 
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <p>&copy; 2025 Shanmukha Ganesh. All rights reserved.</p>
+</footer>
 
-
-
-  <!-- Footer -->
-  <footer class="footer" id="contact">
-    <p>&copy; 2025 Shanmukha Ganesh. All rights reserved.</p>
-  </footer>
-
+<script>
+  // Mobile menu toggle functionality
+  document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+    const menuBar = document.getElementById('menuBar');
+    menuBar.style.display = menuBar.style.display === 'block' ? 'none' : 'block';
+  });
+</script>
 </body>
 </html>
